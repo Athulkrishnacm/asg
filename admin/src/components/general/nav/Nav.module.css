@@ -1,0 +1,31 @@
+.container {
+    font-size: 13px;
+    width: 100px;
+    padding: 5px 0;
+    cursor: pointer;
+    transition: opacity 0.1s, font-weight 0s ;
+    z-index: 2;
+    text-align: center;
+}
+
+.active {
+    font-weight: bold;
+    text-shadow: 0 0 30px rgb(var(--background-color)), 0 0 30px rgb(var(--background-color)), 0 0 30px rgb(var(--background-color)), 0 0 30px rgb(var(--background-color)), 0 0 30px rgb(var(--background-color)), 0 0 30px rgb(var(--background-color));
+}
+
+.container:hover {
+    text-decoration: solid;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+}
+
+@media screen and (max-width: 800px) {
+    .container{
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

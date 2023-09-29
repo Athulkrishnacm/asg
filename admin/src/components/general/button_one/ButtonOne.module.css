@@ -1,0 +1,68 @@
+.button {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: var(--transition), opacity 0.1s;
+    position: relative;
+    overflow: hidden;
+}
+
+.cancel {
+    background-color: rgb(var(--foreground-color));
+    color: rgb(var(--background-color));
+}
+
+.accept {
+    background-color: red;
+    color: rgb(var(--background-color));
+}
+
+.option {
+    background-color: transparent;
+    color: rgb(var(--foreground-color));
+    border: 1px solid rgba(128, 128, 128, 0.4);
+}
+
+
+.button:hover {
+    opacity: 0.7;
+}
+
+.loading {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 7;
+    background-color: red;
+}
+
+.loader {
+    width: 20px;
+    height: 20px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-radius: 20px;
+    animation: rotate 1s infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

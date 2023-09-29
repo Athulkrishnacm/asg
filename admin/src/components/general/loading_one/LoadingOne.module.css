@@ -1,0 +1,13 @@
+.container {
+    animation: rotating 1s infinite;
+    transition: var(--transition), opacity 0.5s;
+}
+
+@keyframes rotating {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
