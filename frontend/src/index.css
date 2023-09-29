@@ -1,0 +1,16 @@
+#root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  border: 0;
+  background-color: rgb(var(--background-color));
+  color: rgb(var(--foreground-color));
+  transition: all 0.5s;
+  user-select: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

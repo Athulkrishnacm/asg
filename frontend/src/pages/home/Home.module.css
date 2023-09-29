@@ -1,0 +1,25 @@
+.categories-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    padding: 20px 20px 40px 20px;
+}
+.categories-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 800px) {
+    .categories-section {
+        padding: 0;
+        gap: 10px;
+    }
+    .categories-wrapper {
+        gap: 20px;
+    }
+}

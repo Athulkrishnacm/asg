@@ -1,0 +1,50 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(var(--background-color));
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.asgarage-text{
+    width: fit-content;
+    display: flex;
+    gap: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    user-select: none;
+}
+
+.as-text {
+    color: var(--primary-color);
+    animation: as-text 1s
+}
+
+.garage-text {
+    animation: garage-text 1s
+}
+
+@keyframes as-text {
+    from {
+        transform: translateX(-20px) scale(3);
+    }
+    to {
+        transform: translateX(0px) scale(1);
+    }
+}
+
+@keyframes garage-text {
+    from {
+        transform: translateX(50px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}

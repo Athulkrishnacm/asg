@@ -1,0 +1,54 @@
+.container {
+    padding: 80px 50px;
+}
+
+.card {
+    padding: 40px;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.images-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.heading {
+    font-size: 15px;
+}
+
+.images-input-wrapper {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.buttons-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.contents-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.field-value {
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        padding:  60px 10px 10px 10px;
+    }
+
+    .card {
+        padding: 20px;
+    }
+}

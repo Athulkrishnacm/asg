@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.input {
+    width: 100%;
+    background-color: rgb(var(--background-color));
+    color: rgb(var(--foreground-color));
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+}
+
+.error {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 20px;
+    color: red;
+    font-size: 12px;
+    text-shadow: 0 0 10px rgb(var(--background-color)), 0 0 10px rgb(var(--background-color)), 0 0 10px rgb(var(--background-color)), 0 0 10px rgb(var(--background-color)), 0 0 10px rgb(var(--background-color)), 0 0 10px rgb(var(--background-color));
+}

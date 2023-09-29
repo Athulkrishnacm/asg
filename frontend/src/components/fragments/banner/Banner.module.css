@@ -1,0 +1,43 @@
+.container {
+    width: fit-content;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.text-wrapper {
+    background-color: rgba(var(--background-color), 0.8);
+    width: 100vw;
+    height: 100dvh;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 50px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 500px;
+}
+
+.sub-heading {
+    font-size: 18px;
+    width: 100%;
+    max-width: 500px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .text-wrapper {
+        padding: 40px;
+    }
+    .heading {
+        font-size: 30px;
+    }
+    .sub-heading {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,30 @@
+.container {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 50px 20px 50px;
+    background-color: rgba(128, 128, 128, 0.25);
+    border-radius: 15px;
+    align-items: center;
+    gap: 50px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.container:hover {
+    background-color: rgba(128, 128, 128, 0.15);
+}
+
+.image {
+    width: 100%;
+    flex-grow: 1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.title {
+    font-size: 13px;
+}

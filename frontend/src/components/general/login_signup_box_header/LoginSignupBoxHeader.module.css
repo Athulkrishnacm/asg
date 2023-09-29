@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    color: rgb(var(--foreground-color));
+}
+
+.text {
+    padding: 2px 20px;
+    font-size: 12px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: var(--transition), opacity 0.1s, font-size 0.2s;
+}
+
+.text:hover {
+    opacity: 0.7;
+}
+
+.text:first-child {
+    border-right: 1px solid rgb(var(--foreground-color));
+}
+
+.text:last-child {
+    border-left: 1px solid rgb(var(--foreground-color));
+}
+
+.active {
+    font-weight: bolder;
+    font-size: 15px;
+}

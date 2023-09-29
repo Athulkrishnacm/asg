@@ -1,0 +1,10 @@
+.container {
+    width: 98dvw;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 120px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
